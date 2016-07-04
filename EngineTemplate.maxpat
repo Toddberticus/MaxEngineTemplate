@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 631.0, 78.0, 33.0 ],
+					"patching_rect" : [ 186.25, 644.0, 78.0, 33.0 ],
 					"style" : "",
 					"text" : "randomized \nEFX gater"
 				}
@@ -881,7 +881,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 89.75, 631.0, 93.0, 22.0 ],
+					"patching_rect" : [ 90.0, 644.0, 93.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -915,7 +915,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1028.0, 145.0, 150.0, 74.0 ],
+					"patching_rect" : [ 1070.0, 144.5, 150.0, 74.0 ],
 					"style" : "",
 					"text" : "This is an early, shitty attempt to make drumbeats/delays to a midi capable drum machine. "
 				}
@@ -980,7 +980,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.0, 534.0, 150.0, 60.0 ],
+					"patching_rect" : [ 638.5, 537.0, 150.0, 60.0 ],
 					"style" : "",
 					"text" : "Plays notes in order via transport rate/ has inbuilt switching randomly for different colls"
 				}
@@ -992,7 +992,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.0, 456.5, 113.0, 20.0 ],
+					"patching_rect" : [ 691.5, 455.5, 113.0, 20.0 ],
 					"style" : "",
 					"text" : "+ Val for Duration"
 				}
@@ -1004,7 +1004,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.5, 456.5, 54.0, 20.0 ],
+					"patching_rect" : [ 615.0, 455.5, 54.0, 20.0 ],
 					"style" : "",
 					"text" : "Duration"
 				}
@@ -1016,7 +1016,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 508.5, 456.5, 50.0, 20.0 ],
+					"patching_rect" : [ 543.0, 455.5, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Velocity"
 				}
@@ -1032,7 +1032,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 508.5, 481.0, 50.0, 22.0 ],
+					"patching_rect" : [ 543.0, 480.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1046,7 +1046,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 657.0, 481.0, 50.0, 22.0 ],
+					"patching_rect" : [ 691.5, 480.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1060,7 +1060,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 580.5, 481.0, 50.0, 22.0 ],
+					"patching_rect" : [ 615.0, 480.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1071,7 +1071,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.0, 449.5, 64.0, 20.0 ],
+					"patching_rect" : [ 457.5, 455.5, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "Start Stop"
 				}
@@ -1085,7 +1085,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 443.0, 481.0, 24.0, 24.0 ],
+					"patching_rect" : [ 477.5, 480.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -1853,7 +1853,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 477.5, 533.5, 153.0, 22.0 ],
+					"patching_rect" : [ 477.5, 533.0, 153.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1873,7 +1873,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1082.0, 736.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1055.0, 725.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Shuts off all lights"
 				}
@@ -1886,7 +1886,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 943.5, 724.0, 129.0, 22.0 ],
+					"patching_rect" : [ 882.5, 725.0, 129.0, 22.0 ],
 					"style" : "",
 					"text" : "/monome/grid/led/all 0"
 				}
@@ -1899,7 +1899,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 975.0, 631.0, 154.0, 60.0 ],
+					"patching_rect" : [ 1055.0, 654.0, 154.0, 60.0 ],
 					"style" : "",
 					"text" : "This will cause the light to shut off when item stops playing (in this case, 7 top row)"
 				}
@@ -1924,7 +1924,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 943.5, 694.0, 153.0, 22.0 ],
+					"patching_rect" : [ 882.5, 695.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "/monome/grid/led/set 7 0 0"
 				}
@@ -1950,7 +1950,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 626.0, 381.0, 150.0, 47.0 ],
+					"patching_rect" : [ 638.5, 380.5, 150.0, 47.0 ],
 					"style" : "",
 					"text" : "Plays notes in order, adds duration randomness on specific note"
 				}
@@ -1963,7 +1963,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 604.0, 231.0, 150.0, 33.0 ],
+					"patching_rect" : [ 638.5, 231.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Plays notes in specific order from notevals"
 				}
@@ -1976,7 +1976,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 100.0, 150.0, 33.0 ],
+					"patching_rect" : [ 634.0, 100.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Plays random notes based on notevals"
 				}
@@ -3295,7 +3295,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1070.0, 350.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1059.0, 343.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "monome controls"
 				}
@@ -3307,7 +3307,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1007.0, 479.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1059.0, 479.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "File Player"
 				}
@@ -9089,7 +9089,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 441.0, 707.0, 99.0, 22.0 ],
+					"patching_rect" : [ 441.0, 715.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -9404,7 +9404,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 953.0, 717.0, 867.0, 717.0, 867.0, 306.0, 902.5, 306.0 ],
+					"midpoints" : [ 892.0, 717.0, 867.0, 717.0, 867.0, 306.0, 902.5, 306.0 ],
 					"source" : [ "obj-175", 0 ]
 				}
 
@@ -9414,7 +9414,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 953.0, 747.0, 867.0, 747.0, 867.0, 306.0, 902.5, 306.0 ],
+					"midpoints" : [ 892.0, 747.0, 867.0, 747.0, 867.0, 306.0, 902.5, 306.0 ],
 					"source" : [ "obj-177", 0 ]
 				}
 
