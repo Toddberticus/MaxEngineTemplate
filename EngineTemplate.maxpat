@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 631.0, 75.0, 33.0 ],
+					"patching_rect" : [ 186.0, 631.0, 78.0, 33.0 ],
 					"style" : "",
 					"text" : "randomized \nEFX gater"
 				}
@@ -3504,6 +3504,32 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 194.0, 43.0, 161.0, 47.0 ],
+									"style" : "",
+									"text" : "Note that this is set up for a 64; it can be modified for other sizes fairly easily."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 143.0, 514.0, 150.0, 60.0 ],
+									"style" : "",
+									"text" : "Each one of these can be copied, changing 'routepass to the appropriate column'"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-25",
 									"linecount" : 2,
