@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 85.0, 79.0, 965.0, 720.0 ],
+		"rect" : [ 85.0, 79.0, 1259.0, 794.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 631.0, 78.0, 33.0 ],
+					"patching_rect" : [ 186.25, 644.0, 78.0, 33.0 ],
 					"style" : "",
 					"text" : "randomized \nEFX gater"
 				}
@@ -406,9 +406,9 @@
 				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -448,12 +448,49 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 342.0, 470.0, 150.0, 33.0 ],
+									"style" : "",
+									"text" : "Wire these to an LED for an 'Effect On' indicator"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "Gated Output",
+									"id" : "obj-3",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 299.5, 470.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "Gated Output",
+									"id" : "obj-1",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 255.0, 470.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-9",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 321.0, 412.0, 150.0, 47.0 ],
+									"patching_rect" : [ 88.5, 470.0, 150.0, 47.0 ],
 									"style" : "",
 									"text" : "Random output chance every N beats-- add echo or something cool."
 								}
@@ -466,34 +503,21 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 321.0, 196.0, 150.0, 33.0 ],
+									"patching_rect" : [ 234.0, 175.0, 161.0, 33.0 ],
 									"style" : "",
-									"text" : "Wire these to sound source to turn on and off"
+									"text" : "Wire these to sound source to turn on and off via toggle"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"comment" : "CHSwitch",
+									"comment" : "Turn On",
 									"id" : "obj-4",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 260.5, 40.0, 30.0, 30.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "BDSwitch",
-									"id" : "obj-3",
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 172.0, 40.0, 30.0, 30.0 ],
+									"patching_rect" : [ 185.0, 40.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -505,20 +529,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 267.0, 196.0, 41.0, 22.0 ],
-									"style" : "",
-									"text" : "gate~"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 172.0, 196.0, 41.0, 22.0 ],
+									"patching_rect" : [ 174.0, 175.0, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "gate~"
 								}
@@ -595,7 +606,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 115.25, 352.0, 29.5, 22.0 ],
+									"patching_rect" : [ 115.25, 359.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "0"
 								}
@@ -668,13 +679,13 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "CHIn",
+									"comment" : "Audio In",
 									"id" : "obj-37",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 301.5, 40.0, 30.0, 30.0 ],
+									"patching_rect" : [ 226.0, 40.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -694,25 +705,12 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "BDIn",
-									"id" : "obj-39",
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 218.5, 40.0, 30.0, 30.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
+									"comment" : "Gated Output",
 									"id" : "obj-40",
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 272.5, 520.0, 30.0, 30.0 ],
+									"patching_rect" : [ 49.0, 470.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -747,15 +745,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-7", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -778,6 +767,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -822,7 +820,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-30", 0 ]
 								}
 
 							}
@@ -864,15 +862,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-39", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -880,10 +869,19 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 89.75, 631.0, 93.0, 22.0 ],
+					"patching_rect" : [ 90.0, 644.0, 93.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -917,7 +915,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1028.0, 145.0, 150.0, 74.0 ],
+					"patching_rect" : [ 1070.0, 144.5, 150.0, 74.0 ],
 					"style" : "",
 					"text" : "This is an early, shitty attempt to make drumbeats/delays to a midi capable drum machine. "
 				}
@@ -982,7 +980,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.0, 534.0, 150.0, 60.0 ],
+					"patching_rect" : [ 638.5, 537.0, 150.0, 60.0 ],
 					"style" : "",
 					"text" : "Plays notes in order via transport rate/ has inbuilt switching randomly for different colls"
 				}
@@ -994,7 +992,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.0, 456.5, 113.0, 20.0 ],
+					"patching_rect" : [ 691.5, 455.5, 113.0, 20.0 ],
 					"style" : "",
 					"text" : "+ Val for Duration"
 				}
@@ -1006,7 +1004,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.5, 456.5, 54.0, 20.0 ],
+					"patching_rect" : [ 615.0, 455.5, 54.0, 20.0 ],
 					"style" : "",
 					"text" : "Duration"
 				}
@@ -1018,7 +1016,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 508.5, 456.5, 50.0, 20.0 ],
+					"patching_rect" : [ 543.0, 455.5, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "Velocity"
 				}
@@ -1034,7 +1032,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 508.5, 481.0, 50.0, 22.0 ],
+					"patching_rect" : [ 543.0, 480.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1048,7 +1046,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 657.0, 481.0, 50.0, 22.0 ],
+					"patching_rect" : [ 691.5, 480.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1062,7 +1060,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 580.5, 481.0, 50.0, 22.0 ],
+					"patching_rect" : [ 615.0, 480.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1073,7 +1071,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.0, 449.5, 64.0, 20.0 ],
+					"patching_rect" : [ 457.5, 455.5, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "Start Stop"
 				}
@@ -1087,7 +1085,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 443.0, 481.0, 24.0, 24.0 ],
+					"patching_rect" : [ 477.5, 480.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -1855,7 +1853,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 477.5, 533.5, 153.0, 22.0 ],
+					"patching_rect" : [ 477.5, 533.0, 153.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1875,7 +1873,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1082.0, 736.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1055.0, 725.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Shuts off all lights"
 				}
@@ -1888,7 +1886,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 943.5, 724.0, 129.0, 22.0 ],
+					"patching_rect" : [ 882.5, 725.0, 129.0, 22.0 ],
 					"style" : "",
 					"text" : "/monome/grid/led/all 0"
 				}
@@ -1901,7 +1899,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 975.0, 631.0, 154.0, 60.0 ],
+					"patching_rect" : [ 1055.0, 654.0, 154.0, 60.0 ],
 					"style" : "",
 					"text" : "This will cause the light to shut off when item stops playing (in this case, 7 top row)"
 				}
@@ -1926,7 +1924,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 943.5, 694.0, 153.0, 22.0 ],
+					"patching_rect" : [ 882.5, 695.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "/monome/grid/led/set 7 0 0"
 				}
@@ -1952,7 +1950,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 626.0, 381.0, 150.0, 47.0 ],
+					"patching_rect" : [ 638.5, 380.5, 150.0, 47.0 ],
 					"style" : "",
 					"text" : "Plays notes in order, adds duration randomness on specific note"
 				}
@@ -1965,7 +1963,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 604.0, 231.0, 150.0, 33.0 ],
+					"patching_rect" : [ 638.5, 231.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Plays notes in specific order from notevals"
 				}
@@ -1978,7 +1976,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 100.0, 150.0, 33.0 ],
+					"patching_rect" : [ 634.0, 100.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Plays random notes based on notevals"
 				}
@@ -3297,7 +3295,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1070.0, 350.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1059.0, 343.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "monome controls"
 				}
@@ -3309,7 +3307,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1007.0, 479.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1059.0, 479.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "File Player"
 				}
@@ -9091,7 +9089,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 441.0, 707.0, 99.0, 22.0 ],
+					"patching_rect" : [ 441.0, 715.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -9406,7 +9404,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 953.0, 717.0, 867.0, 717.0, 867.0, 306.0, 902.5, 306.0 ],
+					"midpoints" : [ 892.0, 717.0, 867.0, 717.0, 867.0, 306.0, 902.5, 306.0 ],
 					"source" : [ "obj-175", 0 ]
 				}
 
@@ -9416,7 +9414,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 953.0, 747.0, 867.0, 747.0, 867.0, 306.0, 902.5, 306.0 ],
+					"midpoints" : [ 892.0, 747.0, 867.0, 747.0, 867.0, 306.0, 902.5, 306.0 ],
 					"source" : [ "obj-177", 0 ]
 				}
 
