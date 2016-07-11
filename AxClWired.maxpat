@@ -21615,7 +21615,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 890.0, 465.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -21642,6 +21642,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-118",
@@ -37420,7 +37421,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.5, 159.0, 36.0, 22.0 ],
+					"patching_rect" : [ 422.5, 133.0, 36.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 428.5, 104.0, 36.0, 22.0 ],
 					"style" : ""
@@ -41009,20 +41010,20 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 7 ],
+					"destination" : [ "obj-67", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 638.0, 198.0, 624.0, 198.0, 624.0, 294.0, 621.0, 294.0, 621.0, 432.0, 90.5, 432.0 ],
+					"midpoints" : [ 638.0, 198.0, 624.0, 198.0, 624.0, 294.0, 621.0, 294.0, 621.0, 432.0, 69.5, 432.0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 6 ],
+					"destination" : [ "obj-67", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 560.0, 198.0, 543.0, 198.0, 543.0, 432.0, 80.0, 432.0 ],
+					"midpoints" : [ 560.0, 198.0, 543.0, 198.0, 543.0, 432.0, 59.0, 432.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -41609,20 +41610,20 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 5 ],
+					"destination" : [ "obj-67", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 484.0, 198.0, 465.0, 198.0, 465.0, 339.0, 462.0, 339.0, 462.0, 432.0, 69.5, 432.0 ],
+					"midpoints" : [ 484.0, 198.0, 465.0, 198.0, 465.0, 339.0, 462.0, 339.0, 462.0, 432.0, 48.5, 432.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 3 ],
+					"destination" : [ "obj-67", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 406.0, 198.0, 387.0, 198.0, 387.0, 339.0, 384.0, 339.0, 384.0, 432.0, 48.5, 432.0 ],
+					"midpoints" : [ 406.0, 198.0, 387.0, 198.0, 387.0, 339.0, 384.0, 339.0, 384.0, 432.0, 38.0, 432.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
