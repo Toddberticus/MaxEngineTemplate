@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 44.0, 80.0, 1600.0, 762.0 ],
+		"rect" : [ 44.0, 80.0, 1268.0, 549.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,22 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 11,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 313.0, 336.0, 150.0, 154.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 313.0, 336.0, 490.5, 87.0 ],
+					"style" : "",
+					"text" : "15 7 Transport on\nStarting with column 1, rows 1, 2, 3 turn on voices\nUnder each voice row 4 is \"inc\" 5 is \"dec\" each value\nColumn 13 row 0, 1, 2 set whcih voice column is inc/dec \nColumn 15 row 1, 2, 3 blink to set note division\n0 0 shuts off all metros"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-84",
 					"maxclass" : "comment",
