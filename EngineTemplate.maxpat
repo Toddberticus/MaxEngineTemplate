@@ -324,7 +324,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 87.0, 182.0, 1032.0, 696.0 ],
+						"rect" : [ 87.0, 182.0, 1156.0, 697.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14080,9 +14080,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 4016.0, 324.0, 73.0, 22.0 ],
+									"patching_rect" : [ 4016.0, 324.0, 79.0, 22.0 ],
 									"style" : "",
-									"text" : "routepass 7"
+									"text" : "routepass 15"
 								}
 
 							}
@@ -16512,9 +16512,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 3929.0, 324.0, 73.0, 22.0 ],
+									"patching_rect" : [ 3929.0, 324.0, 80.0, 22.0 ],
 									"style" : "",
-									"text" : "routepass 7"
+									"text" : "routepass 15"
 								}
 
 							}
